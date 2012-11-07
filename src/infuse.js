@@ -344,18 +344,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 		};
 	}
 
-	// register for AMD module
-	if (typeof define === 'function' && define.amd) {
-	    define("infuse", infuse);
-	}
-	
-	// export for node.js
-	if (typeof exports !== 'undefined') {
-		if (typeof module !== 'undefined' && module.exports) {
-			exports = module.exports = infuse;
-		}
-		exports = infuse;
-	}
+	module.exports = infuse;
 
-})(this['infuse'] = this['infuse'] || {});
+})({});
 
