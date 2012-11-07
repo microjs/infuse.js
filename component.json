@@ -1,0 +1,15 @@
+{
+  "name": "infuse.js",
+  "repo": "microjs/infuse.js",
+  "description": "javascript ioc library",
+  "version": "0.6.0",
+  "keywords": ["infuse.js", "infusejs", "ioc", "di", "dependency", "injection"],
+  "dependencies": {},
+  "development": {},
+  "scripts": [
+    "src/infuse.js"
+  ],
+  "main": "src/infuse.js",
+  "twitter": "@ForbesLindesay",
+  "license": "MIT"
+}
